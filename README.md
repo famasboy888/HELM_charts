@@ -31,3 +31,15 @@ helm create <helm-char-name>
   │       └── test-connection.yaml
   └── values.yaml
 ```
+
+To deploy a helm chart deployment use this command:
+
+```bash
+helm install <app-name> . --values values.yaml
+```
+
+To ddestroy a helm chart deployment use this command:
+
+```bash
+helm unstall <app-name>
+```
